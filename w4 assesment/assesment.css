@@ -1,0 +1,130 @@
+html {
+    background-color:rgb(193, 143, 226);
+   
+}
+header {
+    font-size: xx-large;
+    font-style:italic;
+    font-stretch: expanded;
+    color: white;
+}
+body {
+    display: inline-block;
+    bacground-image: url('pexels-brett-sayles-4508745.jpg');
+    background-size: 10em;      
+    margin: 2em; 
+}
+h1 {
+    background-color: crimson;
+    border-style: solid;
+    border-color: black;
+    font-size: xx-large;
+    background-image: url('photo-1596392954601-545d4243c2cb.jpg');
+    height: 26em;
+    width: 100%;
+    background-position: center;   
+    text-align: center;   
+    
+    
+}
+nav {
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: black;
+    font-size: large; 
+    text-align: center;
+    
+   
+}
+h3 {
+    background-color: crimson;
+    border-style: solid;
+    border-color: black;
+    font-size: large;
+    padding-bottom: 8em;
+    padding-top: 8em;
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    
+}
+h4 {
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: black;
+    font-size: x-large;   
+    text-align: center;
+    padding-bottom: 8em;
+    padding-top: 8em;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+}
+h4 img {
+
+    float: right;
+    height: 100%;
+    width: 20em;
+    overflow: hidden;
+    margin: 2em;
+}
+h4 p {
+    font-size:large;
+    
+}
+h5 {
+    background-color: crimson;
+    border-style: solid;
+    border-color: black;
+    font-size: large;
+    padding-bottom: 8em;
+    padding-top: 8em;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+ 
+}
+h6 {
+    background-color: whitesmoke;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: black;
+    font-size:larger;
+    padding-top: 8em;    
+    text-align:center; 
+    background-image: url('photo-1608210910799-feea9b717746.jpg'); 
+    padding-left: 2em;
+    padding-right: 2em;
+
+}    
+h6 p {
+    text-align:center;
+    font-size: large;
+    color: blanchedalmond;
+  
+}
+h6 img {
+    position:relative;
+    height: 100%;
+    width: 22em;
+    overflow: hidden;
+}
+nav p {
+    display: inline-block;
+    font-size: large;
+    color: lawngreen;
+    margin-right: 5em;
+}
+footer { 
+    background-color: crimson;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    font-size: large;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    text-align: center;
+    background-image: url('charity2.png');
+    height: 7em;
+    width: 100%;
+    color: blanchedalmond;
+}
