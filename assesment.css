@@ -13,7 +13,7 @@ body {
     margin: 2em; 
 }
 h1 {
-    background-color: crimson;
+    background-color: rgb(182, 58, 161);
     border-style: solid;
     border-color: black;
     font-size: xx-large;
@@ -31,7 +31,7 @@ nav {
     text-align: center;   
 }
 h3 {
-    background-color: crimson;
+    background-color: rgb(182, 58, 161);
     border-style: solid;
     border-color: black;
     font-size: larger;
@@ -39,7 +39,8 @@ h3 {
     padding-top: 8em;
     text-align: center;
     padding-left: 2em;
-    padding-right: 2em;   
+    padding-right: 2em; 
+    color: white;  
 }
 article {
   background-color: whitesmoke;
@@ -64,7 +65,7 @@ article p {
     font-size:large;    
 }
 section {  
-    background-color: crimson;
+    background-color:rgb(182, 58, 161);
     border-style: solid;
     border-color: black;
     font-size:x-large;
@@ -75,6 +76,7 @@ section {
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
+    color: white;
 }
 section p {
     font-size: large;
@@ -99,7 +101,7 @@ h6 {
 figure p {
     text-align:center;
     font-size: large;
-    color: blanchedalmond; 
+    color: white; 
 }
 figure img {
     position:relative;
@@ -114,7 +116,7 @@ nav p {
     margin-right: 5em;
 }
 footer { 
-    background-color: crimson;
+    background-color:rgb(182, 58, 161);
     border-style: solid;
     border-color: rgb(0, 0, 0);
     font-size: large;
@@ -124,5 +126,6 @@ footer {
     background-image: url('charity2.png');
     height: 7em;
     width: 100%;
-    color: blanchedalmond;
+    color:white;
+    font-size: larger;
 }
