@@ -6,6 +6,7 @@ header {
     font-style:italic;
     font-stretch: expanded;
     color: white;
+    
 }
 body {
     display: inline-block;
@@ -18,10 +19,14 @@ h1 {
     border-color: black;
     font-size: xx-large;
     background-image: url('photo-1596392954601-545d4243c2cb.jpg');
+    background-repeat: no-repeat;
     height: 26em;
     width: 100%;
     background-position: center;   
-    text-align: center;      
+    text-align: center; 
+    padding-top: 1em;  
+    color: white;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav {
     background-color: whitesmoke;
@@ -40,7 +45,8 @@ h3 {
     text-align: center;
     padding-left: 2em;
     padding-right: 2em; 
-    color: white;  
+    color: white; 
+    font-style: oblique; 
 }
 article {
   background-color: whitesmoke;
@@ -86,28 +92,40 @@ figure {
     color: rgb(255, 255, 255);
     border-style: solid;
     border-color: black;
-    padding-top: 8em;    
+    padding-top: 3em;    
     text-align:center; 
     background-image: url('photo-1608210910799-feea9b717746.jpg'); 
     padding-left: 2em;
     padding-right: 2em;   
     margin-left: -0em;
     margin-right: -0em;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.5em; 
+    padding-bottom: 0.1em;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
 } 
+h5 {
+    font-size: larger;
+}
 h6 {
-    font-size:larger;
-}   
+    font-size:x-large;
+    color: white;
+}
 figure p {
     text-align:center;
-    font-size: large;
+    font-size: larger;
     color: white; 
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 figure img {
     position:relative;
     height: 100%;
-    width: 22em;
+    width: 25%;
     overflow: hidden;
+    padding-left: 2.7em;
 }
 nav p {
     display: inline-block;
@@ -120,12 +138,13 @@ footer {
     border-style: solid;
     border-color: rgb(0, 0, 0);
     font-size: large;
-    padding-bottom: 2em;
     padding-top: 2em;
     text-align: center;
     background-image: url('charity2.png');
     height: 7em;
     width: 100%;
     color:white;
-    font-size: larger;
+    font-size: x-large;
+    
+    
 }
